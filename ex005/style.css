@@ -1,0 +1,28 @@
+
+
+body{
+    background-color: beige;
+    
+    width: 100%;
+    background-size:100%;
+}
+
+.conteudo{
+    
+
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:20;
+    background-color: rgba(127, 255, 212, 0.274);
+                 
+}
+.img{
+    border-radius: 20;
+}
+
+

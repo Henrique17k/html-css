@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+}
+
+html {
+    font-size: 67.5%;
+    --font-color: #eee;
+    --background-color: rgba(13, 14, 12, 0.642); 
+    --header-font-color: rgb(75, 150, 37)
+}
+
+body {
+    background-image: url(bHF5PR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 7rem;
+    text-align: center;
+    color: var(--header-font-color);
+    background-color: var(--background-color);
+    margin: 1.5rem;
+}
+
+.content {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.capa {
+    width: 18rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.capa img {
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.7rem #202220 ;
+    cursor: pointer;   
+}
+
+.capa img:hover{
+    box-shadow: 0.7rem 0.7rem 1.5rem #000000 ;
+}
+
+.capa p {
+    font-size: 1.8rem;
+    color: var(--font-color);
+    font-weight: 600;
+    margin: 0.5rem;
+}
